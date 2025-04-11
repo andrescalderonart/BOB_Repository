@@ -1,0 +1,52 @@
+/* Estilos básicos para la página de error */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.error-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 72px;
+    color: #e74c3c;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #666;
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
